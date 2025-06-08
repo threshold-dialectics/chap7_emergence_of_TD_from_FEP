@@ -1,0 +1,29 @@
+--- Experiment 2: beta_maintenance_cost_phi variations ---
+ANOVA beta_lever: p=5.702e-01
+  beta_lever 0.5 vs 1.0: p=7.997e-01 (adj=1.000e+00)
+  beta_lever 0.5 vs 1.5: p=4.851e-01 (adj=1.000e+00)
+  beta_lever 0.5 vs 2.0: p=4.712e-01 (adj=1.000e+00)
+  beta_lever 1.0 vs 1.5: p=6.753e-01 (adj=1.000e+00)
+  beta_lever 1.0 vs 2.0: p=3.513e-01 (adj=1.000e+00)
+  beta_lever 1.5 vs 2.0: p=1.675e-01 (adj=1.000e+00)
+ANOVA fcrit_lever: p=9.678e-01
+  fcrit_lever 0.5 vs 1.0: p=7.306e-01 (adj=1.000e+00)
+  fcrit_lever 0.5 vs 1.5: p=9.705e-01 (adj=1.000e+00)
+  fcrit_lever 0.5 vs 2.0: p=8.809e-01 (adj=1.000e+00)
+  fcrit_lever 1.0 vs 1.5: p=6.990e-01 (adj=1.000e+00)
+  fcrit_lever 1.0 vs 2.0: p=6.294e-01 (adj=1.000e+00)
+  fcrit_lever 1.5 vs 2.0: p=9.079e-01 (adj=1.000e+00)
+ANOVA PE_abs: p=6.213e-01
+  PE_abs 0.5 vs 1.0: p=7.101e-01 (adj=1.000e+00)
+  PE_abs 0.5 vs 1.5: p=6.024e-01 (adj=1.000e+00)
+  PE_abs 0.5 vs 2.0: p=4.002e-01 (adj=1.000e+00)
+  PE_abs 1.0 vs 1.5: p=3.662e-01 (adj=1.000e+00)
+  PE_abs 1.0 vs 2.0: p=2.073e-01 (adj=1.000e+00)
+  PE_abs 1.5 vs 2.0: p=7.799e-01 (adj=1.000e+00)
+ANOVA G_td: p=9.565e-01
+  G_td 0.5 vs 1.0: p=7.637e-01 (adj=1.000e+00)
+  G_td 0.5 vs 1.5: p=8.339e-01 (adj=1.000e+00)
+  G_td 0.5 vs 2.0: p=8.266e-01 (adj=1.000e+00)
+  G_td 1.0 vs 1.5: p=5.893e-01 (adj=1.000e+00)
+  G_td 1.0 vs 2.0: p=9.655e-01 (adj=1.000e+00)
+  G_td 1.5 vs 2.0: p=6.726e-01 (adj=1.000e+00)

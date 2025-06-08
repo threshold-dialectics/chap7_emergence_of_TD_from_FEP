@@ -1,0 +1,1051 @@
+=== Simulation Configuration ===
+{'dt': 0.1, 'total_time': 1000, 'logging_interval': 1, 'n_monte_carlo': 30, 'results_base_dir': 'results_G7_fep_td_agent'}
+=== Environment Configuration ===
+{'signal_type': 'sine_wave_shifting', 'initial_amplitude': 1.0, 'initial_frequency': 0.1, 'base_noise_std': 0.02, 'regime_shift_time': 2000, 'shift_amplitude_factor': 1.0, 'shift_frequency_factor': 1.0, 'shift_noise_factor': 1.0}
+=== Agent TD Configuration ===
+{'g_initial': 2.0, 'beta_initial': 0.2, 'fcrit_initial': 200.0, 'fcrit_floor': 10.0, 'fcrit_replenish_rate': 0.9, 'w_coeffs': {'w1': 0.3, 'w2': 0.3, 'w3': 0.4}, 'C_const': 0.021, 'g_cost_kappa': 0.05, 'g_cost_phi1': 0.75, 'g_adaptation_rate': 0.1, 'g_pe_thresh_improve': 0.05, 'g_pe_thresh_degrade': 0.2, 'g_min': 0.1, 'g_max': 3.0, 'beta_model_update_cost': 0.15, 'beta_adaptation_rate': 0.1, 'beta_pe_thresh_exploit': 0.08, 'beta_pe_thresh_explore': 0.25, 'beta_min': 0.05, 'beta_max': 5.0, 'beta_maintenance_cost_kappa': 0.001, 'beta_maintenance_cost_phi': 1.0, 'fcrit_decay_rate_intrinsic': 0.0001, 'strain_avg_window_G7': 50, 'deriv_window_G7': 31, 'deriv_polyorder_sg': 2, 'couple_window_G7': 100, 'strain_fatigue_threshold_steps': 75}
+
+--- Running G7 Scenario: S1_PredEnv_AmpleRes ---
+  MC Run 1/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_fep_agent_s1_predenv_ampleres_run0.png
+  MC Run 2/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 3/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 4/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 5/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 6/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 7/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 8/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 9/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 10/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 11/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 12/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 13/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 14/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 15/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 16/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 17/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 18/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 19/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 20/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 21/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 22/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 23/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 24/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 25/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 26/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 27/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 28/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 29/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+  MC Run 30/30 for S1_PredEnv_AmpleRes
+  Simulation S1_PredEnv_AmpleRes completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\G7_mc_avg_couple_td.png
+--- Scenario S1_PredEnv_AmpleRes ---
+S1 (Late vs Early) PE_abs: 0.164 -> 0.176 (p=1.406e-33)
+S1 (Late vs Early) g_lever: 2.372 -> 2.964 (p=3.022e-37)
+S1 (Late vs Early) beta_lever: 0.422 -> 0.702 (p=1.464e-40)
+S1 (Late vs Early) fcrit_lever: 203.430 -> 124.391 (p=2.735e-50)
+S1 (Late vs Early) speed_td: 0.472 -> 0.574 (p=4.279e-32)
+S1 (Late vs Early) couple_td: nan -> nan (p=nan)
+S1_PredEnv_AmpleRes PreCollapse vs Baseline PE_abs: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline g_lever: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline beta_lever: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline fcrit_lever: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline speed_td: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline couple_td: insufficient data
+S1_PredEnv_AmpleRes Quadrant distribution: not enough non-zero quadrants for χ² test
+Summary Table (Stable Metrics):
+     Metric  PreCollapse  Baseline
+     PE_abs          NaN       NaN
+    g_lever          NaN       NaN
+ beta_lever          NaN       NaN
+fcrit_lever          NaN       NaN
+   speed_td          NaN       NaN
+  couple_td          NaN       NaN
+S1_PredEnv_AmpleRes: PE_abs slope=0.0000 (R2=0.00), max=0.32 at t=455.2, min=0.00 at t=548.8
+S1_PredEnv_AmpleRes: g_lever slope=0.0002 (R2=0.08), max=3.00 at t=54.8, min=1.91 at t=19.9
+S1_PredEnv_AmpleRes: beta_lever slope=0.0001 (R2=0.03), max=0.99 at t=495.0, min=0.21 at t=0.1
+S1_PredEnv_AmpleRes: fcrit_lever slope=-0.0957 (R2=0.99), max=209.84 at t=26.0, min=110.44 at t=985.0
+S1_PredEnv_AmpleRes: speed_td slope=0.0000 (R2=0.00), max=1.24 at t=333.4, min=0.00 at t=514.2
+S1_PredEnv_AmpleRes: couple_td slope=0.0000 (R2=0.00), max=0.98 at t=14.5, min=-0.18 at t=305.9
+S1_PredEnv_AmpleRes: PE_abs STD@t20=0.02; max spread=0.15
+S1_PredEnv_AmpleRes: g_lever STD@t20=0.04; max spread=0.68
+S1_PredEnv_AmpleRes: beta_lever STD@t20=0.04; max spread=0.19
+S1_PredEnv_AmpleRes: fcrit_lever STD@t20=0.27; max spread=8.32
+S1_PredEnv_AmpleRes: speed_td STD@t20=0.00; max spread=0.53
+S1_PredEnv_AmpleRes: couple_td STD@t20=0.08; max spread=inf
+[FIGURE] results_G7_fep_td_agent\S1_PredEnv_AmpleRes\quadrant_props_S1_PredEnv_AmpleRes.png
+
+--- Running G7 Scenario: S2_UnpredEnv_AmpleRes ---
+  MC Run 1/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=1.50 (step 14) due to ThetaT_Breach_PE
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_fep_agent_s2_unpredenv_ampleres_run0.png
+  MC Run 2/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=6.90 (step 68) due to ThetaT_Breach_PE
+  MC Run 3/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.20 (step 1) due to ThetaT_Breach_PE
+  MC Run 4/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.10 (step 0) due to ThetaT_Breach_PE
+  MC Run 5/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.20 (step 1) due to ThetaT_Breach_PE
+  MC Run 6/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=3.10 (step 30) due to ThetaT_Breach_PE
+  MC Run 7/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=2.50 (step 24) due to ThetaT_Breach_PE
+  MC Run 8/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.30 (step 2) due to ThetaT_Breach_PE
+  MC Run 9/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.60 (step 5) due to ThetaT_Breach_PE
+  MC Run 10/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.10 (step 0) due to ThetaT_Breach_PE
+  MC Run 11/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=3.00 (step 29) due to ThetaT_Breach_PE
+  MC Run 12/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=4.50 (step 44) due to ThetaT_Breach_PE
+  MC Run 13/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=6.10 (step 60) due to ThetaT_Breach_PE
+  MC Run 14/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=4.80 (step 47) due to ThetaT_Breach_PE
+  MC Run 15/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.40 (step 3) due to ThetaT_Breach_PE
+  MC Run 16/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=10.40 (step 103) due to ThetaT_Breach_PE
+  MC Run 17/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=8.40 (step 83) due to ThetaT_Breach_PE
+  MC Run 18/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.20 (step 1) due to ThetaT_Breach_PE
+  MC Run 19/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.10 (step 0) due to ThetaT_Breach_PE
+  MC Run 20/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.10 (step 0) due to ThetaT_Breach_PE
+  MC Run 21/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.30 (step 2) due to ThetaT_Breach_PE
+  MC Run 22/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.50 (step 4) due to ThetaT_Breach_PE
+  MC Run 23/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=4.50 (step 44) due to ThetaT_Breach_PE
+  MC Run 24/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=6.60 (step 65) due to ThetaT_Breach_PE
+  MC Run 25/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=12.40 (step 123) due to ThetaT_Breach_PE
+  MC Run 26/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=8.10 (step 80) due to ThetaT_Breach_PE
+  MC Run 27/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=2.70 (step 26) due to ThetaT_Breach_PE
+  MC Run 28/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.30 (step 2) due to ThetaT_Breach_PE
+  MC Run 29/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=7.60 (step 75) due to ThetaT_Breach_PE
+  MC Run 30/30 for S2_UnpredEnv_AmpleRes
+  Collapse at t=0.10 (step 0) due to ThetaT_Breach_PE
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\G7_mc_avg_speed_td.png
+All data for column couple_td is NaN in S2_UnpredEnv_AmpleRes. Skipping MC plot.
+SEA S2_UnpredEnv_AmpleRes G_td: slope_last50=nan, R2=nan, peak at t=0.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\sea_G_td_S2_UnpredEnv_AmpleRes.png
+SEA S2_UnpredEnv_AmpleRes speed_td: slope_last50=nan, R2=nan, peak at t=0.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\sea_speed_td_S2_UnpredEnv_AmpleRes.png
+SEA S2_UnpredEnv_AmpleRes couple_td: slope_last50=nan, R2=nan, peak at t=0.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\sea_couple_td_S2_UnpredEnv_AmpleRes.png
+SEA S2_UnpredEnv_AmpleRes g_lever: slope_last50=nan, R2=nan, peak at t=0.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\sea_g_lever_S2_UnpredEnv_AmpleRes.png
+SEA S2_UnpredEnv_AmpleRes beta_lever: slope_last50=nan, R2=nan, peak at t=0.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\sea_beta_lever_S2_UnpredEnv_AmpleRes.png
+SEA S2_UnpredEnv_AmpleRes fcrit_lever: slope_last50=nan, R2=nan, peak at t=0.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\sea_fcrit_lever_S2_UnpredEnv_AmpleRes.png
+SEA S2_UnpredEnv_AmpleRes PE_abs: slope_last50=nan, R2=nan, peak at t=0.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\sea_PE_abs_S2_UnpredEnv_AmpleRes.png
+SEA S2_UnpredEnv_AmpleRes strain_avg_PEsq: slope_last50=nan, R2=nan, peak at t=0.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\sea_strain_avg_PEsq_S2_UnpredEnv_AmpleRes.png
+--- Scenario S2_UnpredEnv_AmpleRes ---
+S2 vs S1 (stable) PE_abs: 0.395 vs 0.176 (p=2.750e-08)
+S2 vs S1 (stable) g_lever: 2.086 vs 2.964 (p=5.925e-53)
+S2 vs S1 (stable) beta_lever: 0.155 vs 0.702 (p=1.564e-60)
+S2 vs S1 (stable) fcrit_lever: 199.868 vs 124.391 (p=2.083e-89)
+S2 vs S1 (stable) speed_td: 0.138 vs 0.574 (p=1.293e-38)
+S2 vs S1 (stable) couple_td: 0.465 vs nan (p=nan)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline PE_abs: 0.236 vs 0.240 (p=6.956e-01)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline g_lever: 2.069 vs 2.116 (p=3.386e-02)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline beta_lever: 0.168 vs 0.149 (p=8.102e-02)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline fcrit_lever: 199.930 vs 200.030 (p=3.891e-01)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline speed_td: 0.131 vs 0.093 (p=2.985e-03)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline couple_td: 0.458 vs 0.181 (p=3.333e-01)
+S2_UnpredEnv_AmpleRes Quadrant distribution χ² p=1.306e-01
+Summary Table (Stable Metrics):
+     Metric  PreCollapse   Baseline
+     PE_abs     0.235927   0.239884
+    g_lever     2.068867   2.116325
+ beta_lever     0.167810   0.149000
+fcrit_lever   199.930311 200.030055
+   speed_td     0.131118   0.092535
+  couple_td     0.458420   0.180823
+S2_UnpredEnv_AmpleRes: PE_abs slope=1.1714 (R2=0.32), max=0.71 at t=2.2, min=0.12 at t=1.9
+S2_UnpredEnv_AmpleRes: g_lever slope=0.0548 (R2=0.94), max=2.13 at t=3.2, min=2.00 at t=0.1
+S2_UnpredEnv_AmpleRes: beta_lever slope=-0.0436 (R2=0.87), max=0.20 at t=0.2, min=0.13 at t=3.0
+S2_UnpredEnv_AmpleRes: fcrit_lever slope=-0.2205 (R2=0.54), max=200.12 at t=0.9, min=199.68 at t=2.8
+S2_UnpredEnv_AmpleRes: speed_td slope=0.0064 (R2=0.41), max=0.32 at t=4.0, min=0.02 at t=3.0
+S2_UnpredEnv_AmpleRes: couple_td slope=0.0933 (R2=0.64), max=0.95 at t=7.7, min=0.00 at t=0.1
+S2_UnpredEnv_AmpleRes: PE_abs STD@t20=0.14; max spread=0.57
+S2_UnpredEnv_AmpleRes: g_lever STD@t20=0.01; max spread=0.02
+S2_UnpredEnv_AmpleRes: beta_lever STD@t20=0.01; max spread=0.02
+S2_UnpredEnv_AmpleRes: fcrit_lever STD@t20=0.07; max spread=0.15
+S2_UnpredEnv_AmpleRes: speed_td STD@t20=0.14; max spread=0.39
+S2_UnpredEnv_AmpleRes: couple_td STD@t20=0.00; max spread=0.00
+Baseline correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.890417    -0.596710  0.081691
+beta_lever  -0.890417    1.000000     0.519332 -0.134372
+fcrit_lever -0.596710    0.519332     1.000000 -0.109015
+PE_abs       0.081691   -0.134372    -0.109015  1.000000
+Pre-collapse correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.913657    -0.695774  0.090216
+beta_lever  -0.913657    1.000000     0.673296 -0.148058
+fcrit_lever -0.695774    0.673296     1.000000 -0.132234
+PE_abs       0.090216   -0.148058    -0.132234  1.000000
+[FIGURE] results_G7_fep_td_agent\S2_UnpredEnv_AmpleRes\quadrant_props_S2_UnpredEnv_AmpleRes.png
+
+--- Running G7 Scenario: S3_PredEnv_ScarceRes ---
+  MC Run 1/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.20 (step 301) due to ThetaT_Breach_PE
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_fep_agent_s3_predenv_scarceres_run0.png
+  MC Run 2/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.40 (step 303) due to ThetaT_Breach_PE
+  MC Run 3/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.20 (step 301) due to ThetaT_Breach_PE
+  MC Run 4/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.80 (step 307) due to Fcrit_Depletion_Agent
+  MC Run 5/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.20 (step 301) due to ThetaT_Breach_PE
+  MC Run 6/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.50 (step 304) due to ThetaT_Breach_PE
+  MC Run 7/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.70 (step 306) due to ThetaT_Breach_PE
+  MC Run 8/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.90 (step 308) due to ThetaT_Breach_PE
+  MC Run 9/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.90 (step 308) due to ThetaT_Breach_PE
+  MC Run 10/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.30 (step 302) due to ThetaT_Breach_PE
+  MC Run 11/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.30 (step 302) due to ThetaT_Breach_PE
+  MC Run 12/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.70 (step 306) due to ThetaT_Breach_PE
+  MC Run 13/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.20 (step 301) due to ThetaT_Breach_PE
+  MC Run 14/30 for S3_PredEnv_ScarceRes
+  Collapse at t=31.30 (step 312) due to ThetaT_Breach_PE
+  MC Run 15/30 for S3_PredEnv_ScarceRes
+  Collapse at t=31.30 (step 312) due to Fcrit_Depletion_Agent
+  MC Run 16/30 for S3_PredEnv_ScarceRes
+  Collapse at t=29.80 (step 297) due to ThetaT_Breach_PE
+  MC Run 17/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.90 (step 308) due to ThetaT_Breach_PE
+  MC Run 18/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.30 (step 302) due to ThetaT_Breach_PE
+  MC Run 19/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.90 (step 308) due to ThetaT_Breach_PE
+  MC Run 20/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.70 (step 306) due to ThetaT_Breach_PE
+  MC Run 21/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.50 (step 304) due to ThetaT_Breach_PE
+  MC Run 22/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.20 (step 301) due to ThetaT_Breach_PE
+  MC Run 23/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.50 (step 304) due to ThetaT_Breach_PE
+  MC Run 24/30 for S3_PredEnv_ScarceRes
+  Collapse at t=29.80 (step 297) due to ThetaT_Breach_PE
+  MC Run 25/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.60 (step 305) due to ThetaT_Breach_PE
+  MC Run 26/30 for S3_PredEnv_ScarceRes
+  Collapse at t=29.50 (step 294) due to ThetaT_Breach_PE
+  MC Run 27/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.30 (step 302) due to ThetaT_Breach_PE
+  MC Run 28/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.10 (step 300) due to ThetaT_Breach_PE
+  MC Run 29/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.20 (step 301) due to ThetaT_Breach_PE
+  MC Run 30/30 for S3_PredEnv_ScarceRes
+  Collapse at t=30.50 (step 304) due to ThetaT_Breach_PE
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\G7_mc_avg_couple_td.png
+SEA S3_PredEnv_ScarceRes G_td: slope_last50=-0.0106, R2=0.99, peak at t=-7.6, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\sea_G_td_S3_PredEnv_ScarceRes.png
+SEA S3_PredEnv_ScarceRes speed_td: slope_last50=-0.0354, R2=0.47, peak at t=-2.5, trough at t=-8.8
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\sea_speed_td_S3_PredEnv_ScarceRes.png
+SEA S3_PredEnv_ScarceRes couple_td: slope_last50=0.0710, R2=0.81, peak at t=-1.3, trough at t=-6.0
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\sea_couple_td_S3_PredEnv_ScarceRes.png
+SEA S3_PredEnv_ScarceRes g_lever: slope_last50=0.0763, R2=0.95, peak at t=-0.7, trough at t=-7.4
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\sea_g_lever_S3_PredEnv_ScarceRes.png
+SEA S3_PredEnv_ScarceRes beta_lever: slope_last50=-0.0255, R2=0.97, peak at t=-6.4, trough at t=-9.9
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\sea_beta_lever_S3_PredEnv_ScarceRes.png
+SEA S3_PredEnv_ScarceRes fcrit_lever: slope_last50=-1.5248, R2=1.00, peak at t=-9.9, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\sea_fcrit_lever_S3_PredEnv_ScarceRes.png
+SEA S3_PredEnv_ScarceRes PE_abs: slope_last50=0.0035, R2=0.42, peak at t=0.0, trough at t=-9.7
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\sea_PE_abs_S3_PredEnv_ScarceRes.png
+SEA S3_PredEnv_ScarceRes strain_avg_PEsq: slope_last50=0.0076, R2=0.97, peak at t=0.0, trough at t=-7.6
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\sea_strain_avg_PEsq_S3_PredEnv_ScarceRes.png
+--- Scenario S3_PredEnv_ScarceRes ---
+S3 collapse mean time 30.46
+    Collapse types: ThetaT_Breach_PE:28, Fcrit_Depletion_Agent:2
+S3 vs S1 (stable) PE_abs: 0.176 vs 0.176 (p=8.270e-01)
+S3 vs S1 (stable) g_lever: 2.082 vs 2.964 (p=6.907e-75)
+S3 vs S1 (stable) beta_lever: 0.579 vs 0.702 (p=1.063e-43)
+S3 vs S1 (stable) fcrit_lever: 16.532 vs 124.391 (p=4.732e-98)
+S3 vs S1 (stable) speed_td: 1.010 vs 0.574 (p=9.720e-51)
+S3 vs S1 (stable) couple_td: 0.682 vs nan (p=nan)
+S3_PredEnv_ScarceRes PreCollapse vs Baseline PE_abs: 0.175 vs 0.177 (p=1.413e-01)
+S3_PredEnv_ScarceRes PreCollapse vs Baseline g_lever: 2.079 vs 1.996 (p=6.066e-11)
+S3_PredEnv_ScarceRes PreCollapse vs Baseline beta_lever: 0.580 vs 0.277 (p=2.635e-11)
+S3_PredEnv_ScarceRes PreCollapse vs Baseline fcrit_lever: 16.596 vs 27.959 (p=3.020e-11)
+S3_PredEnv_ScarceRes PreCollapse vs Baseline speed_td: 1.007 vs 0.868 (p=8.153e-11)
+S3_PredEnv_ScarceRes PreCollapse vs Baseline couple_td: 0.680 vs 0.216 (p=3.020e-11)
+S3_PredEnv_ScarceRes Quadrant distribution χ² p=1.466e-10
+Summary Table (Stable Metrics):
+     Metric  PreCollapse  Baseline
+     PE_abs     0.175035  0.176589
+    g_lever     2.079411  1.996373
+ beta_lever     0.579633  0.277333
+fcrit_lever    16.596109 27.958818
+   speed_td     1.007436  0.868029
+  couple_td     0.680451  0.215946
+S3_PredEnv_ScarceRes: PE_abs slope=0.0011 (R2=0.03), max=0.29 at t=28.5, min=0.00 at t=16.0
+S3_PredEnv_ScarceRes: g_lever slope=0.0046 (R2=0.16), max=2.33 at t=29.1, min=1.92 at t=20.0
+S3_PredEnv_ScarceRes: beta_lever slope=0.0135 (R2=0.68), max=0.62 at t=22.5, min=0.21 at t=0.1
+S3_PredEnv_ScarceRes: fcrit_lever slope=-0.5126 (R2=0.90), max=30.00 at t=0.1, min=10.16 at t=30.5
+S3_PredEnv_ScarceRes: speed_td slope=0.0159 (R2=0.08), max=1.55 at t=29.1, min=0.04 at t=7.3
+S3_PredEnv_ScarceRes: couple_td slope=0.0145 (R2=0.15), max=0.98 at t=5.9, min=-0.02 at t=6.2
+S3_PredEnv_ScarceRes: PE_abs STD@t20=0.02; max spread=0.14
+S3_PredEnv_ScarceRes: g_lever STD@t20=0.03; max spread=0.17
+S3_PredEnv_ScarceRes: beta_lever STD@t20=0.03; max spread=0.11
+S3_PredEnv_ScarceRes: fcrit_lever STD@t20=0.40; max spread=2.22
+S3_PredEnv_ScarceRes: speed_td STD@t20=0.01; max spread=0.40
+S3_PredEnv_ScarceRes: couple_td STD@t20=0.08; max spread=inf
+Baseline correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.033811    -0.815681  0.296347
+beta_lever  -0.033811    1.000000    -0.031534  0.028915
+fcrit_lever -0.815681   -0.031534     1.000000 -0.321488
+PE_abs       0.296347    0.028915    -0.321488  1.000000
+Pre-collapse correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.463352    -0.948299  0.590605
+beta_lever  -0.463352    1.000000     0.308943  0.231665
+fcrit_lever -0.948299    0.308943     1.000000 -0.722375
+PE_abs       0.590605    0.231665    -0.722375  1.000000
+[FIGURE] results_G7_fep_td_agent\S3_PredEnv_ScarceRes\quadrant_props_S3_PredEnv_ScarceRes.png
+
+--- Running G7 Scenario: S4_EnvShift_MidPred ---
+  MC Run 1/30 for S4_EnvShift_MidPred
+  Collapse at t=504.30 (step 5042) due to ThetaT_Breach_PE
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_fep_agent_s4_envshift_midpred_run0.png
+  MC Run 2/30 for S4_EnvShift_MidPred
+  Collapse at t=505.80 (step 5057) due to ThetaT_Breach_PE
+  MC Run 3/30 for S4_EnvShift_MidPred
+  Collapse at t=503.40 (step 5033) due to ThetaT_Breach_PE
+  MC Run 4/30 for S4_EnvShift_MidPred
+  Collapse at t=503.60 (step 5035) due to ThetaT_Breach_PE
+  MC Run 5/30 for S4_EnvShift_MidPred
+  Collapse at t=504.60 (step 5045) due to ThetaT_Breach_PE
+  MC Run 6/30 for S4_EnvShift_MidPred
+  Collapse at t=504.60 (step 5045) due to ThetaT_Breach_PE
+  MC Run 7/30 for S4_EnvShift_MidPred
+  Collapse at t=504.50 (step 5044) due to ThetaT_Breach_PE
+  MC Run 8/30 for S4_EnvShift_MidPred
+  Collapse at t=504.50 (step 5044) due to ThetaT_Breach_PE
+  MC Run 9/30 for S4_EnvShift_MidPred
+  Collapse at t=507.70 (step 5076) due to ThetaT_Breach_PE
+  MC Run 10/30 for S4_EnvShift_MidPred
+  Collapse at t=504.00 (step 5039) due to ThetaT_Breach_PE
+  MC Run 11/30 for S4_EnvShift_MidPred
+  Collapse at t=504.40 (step 5043) due to ThetaT_Breach_PE
+  MC Run 12/30 for S4_EnvShift_MidPred
+  Collapse at t=503.20 (step 5031) due to ThetaT_Breach_PE
+  MC Run 13/30 for S4_EnvShift_MidPred
+  Collapse at t=503.70 (step 5036) due to ThetaT_Breach_PE
+  MC Run 14/30 for S4_EnvShift_MidPred
+  Collapse at t=503.60 (step 5035) due to ThetaT_Breach_PE
+  MC Run 15/30 for S4_EnvShift_MidPred
+  Collapse at t=504.70 (step 5046) due to ThetaT_Breach_PE
+  MC Run 16/30 for S4_EnvShift_MidPred
+  Collapse at t=503.90 (step 5038) due to ThetaT_Breach_PE
+  MC Run 17/30 for S4_EnvShift_MidPred
+  Collapse at t=503.70 (step 5036) due to ThetaT_Breach_PE
+  MC Run 18/30 for S4_EnvShift_MidPred
+  Collapse at t=507.40 (step 5073) due to ThetaT_Breach_PE
+  MC Run 19/30 for S4_EnvShift_MidPred
+  Collapse at t=504.60 (step 5045) due to ThetaT_Breach_PE
+  MC Run 20/30 for S4_EnvShift_MidPred
+  Collapse at t=504.30 (step 5042) due to ThetaT_Breach_PE
+  MC Run 21/30 for S4_EnvShift_MidPred
+  Collapse at t=503.30 (step 5032) due to ThetaT_Breach_PE
+  MC Run 22/30 for S4_EnvShift_MidPred
+  Collapse at t=506.30 (step 5062) due to ThetaT_Breach_PE
+  MC Run 23/30 for S4_EnvShift_MidPred
+  Collapse at t=503.80 (step 5037) due to ThetaT_Breach_PE
+  MC Run 24/30 for S4_EnvShift_MidPred
+  Collapse at t=503.20 (step 5031) due to ThetaT_Breach_PE
+  MC Run 25/30 for S4_EnvShift_MidPred
+  Collapse at t=505.00 (step 5049) due to ThetaT_Breach_PE
+  MC Run 26/30 for S4_EnvShift_MidPred
+  Collapse at t=502.70 (step 5026) due to ThetaT_Breach_PE
+  MC Run 27/30 for S4_EnvShift_MidPred
+  Collapse at t=503.30 (step 5032) due to ThetaT_Breach_PE
+  MC Run 28/30 for S4_EnvShift_MidPred
+  Collapse at t=504.70 (step 5046) due to ThetaT_Breach_PE
+  MC Run 29/30 for S4_EnvShift_MidPred
+  Collapse at t=505.40 (step 5053) due to ThetaT_Breach_PE
+  MC Run 30/30 for S4_EnvShift_MidPred
+  Collapse at t=503.40 (step 5033) due to ThetaT_Breach_PE
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\G7_mc_avg_couple_td.png
+SEA S4_EnvShift_MidPred G_td: slope_last50=-0.0424, R2=0.99, peak at t=-9.9, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\sea_G_td_S4_EnvShift_MidPred.png
+SEA S4_EnvShift_MidPred speed_td: slope_last50=-0.0227, R2=0.25, peak at t=-5.9, trough at t=-2.1
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\sea_speed_td_S4_EnvShift_MidPred.png
+SEA S4_EnvShift_MidPred couple_td: slope_last50=-0.0803, R2=0.83, peak at t=-4.2, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\sea_couple_td_S4_EnvShift_MidPred.png
+SEA S4_EnvShift_MidPred g_lever: slope_last50=0.0000, R2=0.01, peak at t=-0.4, trough at t=-9.9
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\sea_g_lever_S4_EnvShift_MidPred.png
+SEA S4_EnvShift_MidPred beta_lever: slope_last50=-0.0487, R2=1.00, peak at t=-9.2, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\sea_beta_lever_S4_EnvShift_MidPred.png
+SEA S4_EnvShift_MidPred fcrit_lever: slope_last50=-0.3751, R2=1.00, peak at t=-9.0, trough at t=0.0
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\sea_fcrit_lever_S4_EnvShift_MidPred.png
+SEA S4_EnvShift_MidPred PE_abs: slope_last50=0.0437, R2=0.39, peak at t=0.0, trough at t=-9.9
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\sea_PE_abs_S4_EnvShift_MidPred.png
+SEA S4_EnvShift_MidPred strain_avg_PEsq: slope_last50=0.0370, R2=0.99, peak at t=0.0, trough at t=-9.9
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\sea_strain_avg_PEsq_S4_EnvShift_MidPred.png
+--- Scenario S4_EnvShift_MidPred ---
+S4 (Post vs Pre) PE_abs: 0.147 -> 0.424 (p=1.503e-27)
+S4 (Post vs Pre) g_lever: 2.887 -> 2.999 (p=1.113e-23)
+S4 (Post vs Pre) beta_lever: 0.838 -> 0.680 (p=2.335e-19)
+S4 (Post vs Pre) fcrit_lever: 278.910 -> 276.663 (p=8.651e-27)
+S4 (Post vs Pre) speed_td: 0.609 -> 0.389 (p=4.990e-13)
+S4 (Post vs Pre) couple_td: 0.738 -> 0.812 (p=2.901e-03)
+S4_EnvShift_MidPred PreCollapse vs Baseline PE_abs: 0.298 vs 0.175 (p=3.020e-11)
+S4_EnvShift_MidPred PreCollapse vs Baseline g_lever: 2.946 vs 2.962 (p=2.773e-05)
+S4_EnvShift_MidPred PreCollapse vs Baseline beta_lever: 0.790 vs 0.672 (p=2.872e-10)
+S4_EnvShift_MidPred PreCollapse vs Baseline fcrit_lever: 278.059 vs 283.836 (p=1.070e-09)
+S4_EnvShift_MidPred PreCollapse vs Baseline speed_td: 0.467 vs 0.525 (p=1.596e-07)
+S4_EnvShift_MidPred PreCollapse vs Baseline couple_td: 0.787 vs nan (p=7.652e-05)
+S4_EnvShift_MidPred Quadrant distribution χ² p=1.967e-252
+Summary Table (Stable Metrics):
+     Metric  PreCollapse   Baseline
+     PE_abs     0.297617   0.174854
+    g_lever     2.945993   2.961653
+ beta_lever     0.790310   0.671642
+fcrit_lever   278.058607 283.835897
+   speed_td     0.466816   0.525277
+  couple_td     0.786897        NaN
+S4_EnvShift_MidPred: PE_abs slope=0.0000 (R2=0.01), max=1.25 at t=502.3, min=0.00 at t=215.3
+S4_EnvShift_MidPred: g_lever slope=0.0006 (R2=0.17), max=3.00 at t=49.6, min=1.94 at t=10.7
+S4_EnvShift_MidPred: beta_lever slope=0.0003 (R2=0.08), max=0.98 at t=267.7, min=0.21 at t=0.1
+S4_EnvShift_MidPred: fcrit_lever slope=-0.0647 (R2=0.91), max=310.46 at t=49.0, min=272.91 at t=481.6
+S4_EnvShift_MidPred: speed_td slope=0.0001 (R2=0.00), max=1.13 at t=0.1, min=0.00 at t=209.0
+S4_EnvShift_MidPred: couple_td slope=0.0001 (R2=0.01), max=0.99 at t=126.4, min=-0.29 at t=147.2
+S4_EnvShift_MidPred: PE_abs STD@t20=0.03; max spread=1.61
+S4_EnvShift_MidPred: g_lever STD@t20=0.04; max spread=0.34
+S4_EnvShift_MidPred: beta_lever STD@t20=0.04; max spread=0.24
+S4_EnvShift_MidPred: fcrit_lever STD@t20=0.36; max spread=11.46
+S4_EnvShift_MidPred: speed_td STD@t20=0.00; max spread=0.64
+S4_EnvShift_MidPred: couple_td STD@t20=0.08; max spread=inf
+Baseline correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.761465    -0.461962  0.354389
+beta_lever  -0.761465    1.000000     0.555052  0.010007
+fcrit_lever -0.461962    0.555052     1.000000 -0.111621
+PE_abs       0.354389    0.010007    -0.111621  1.000000
+Pre-collapse correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.655032    -0.422376  0.345904
+beta_lever  -0.655032    1.000000     0.404977 -0.391245
+fcrit_lever -0.422376    0.404977     1.000000 -0.210937
+PE_abs       0.345904   -0.391245    -0.210937  1.000000
+[FIGURE] results_G7_fep_td_agent\S4_EnvShift_MidPred\quadrant_props_S4_EnvShift_MidPred.png
+
+Saved combined results of all runs to results_G7_fep_td_agent\G7_all_scenarios_combined_runs.csv
+
+--- Completed main scenario runs (S1-S4) ---
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_fep_agent_s1_g_phi1_0.25_run0.png
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.25 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.25\G7_mc_avg_couple_td.png
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_fep_agent_s1_g_phi1_0.5_run0.png
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.5 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.5\G7_mc_avg_couple_td.png
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_fep_agent_s1_g_phi1_0.75_run0.png
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_0.75 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_0.75\G7_mc_avg_couple_td.png
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_fep_agent_s1_g_phi1_1.0_run0.png
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.0 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.0\G7_mc_avg_couple_td.png
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_fep_agent_s1_g_phi1_1.25_run0.png
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+  Simulation S1_g_phi1_1.25 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\S1_g_phi1_1.25\G7_mc_avg_couple_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\summary_comparison_g_phi1_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\summary_comparison_g_phi1_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\summary_comparison_g_phi1_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment1_Vary_g_cost_phi1\summary_comparison_g_phi1_G_td.png
+--- Experiment 1: g_cost_phi1 variations ---
+ANOVA g_lever: p=4.788e-01
+  g_lever 0.25 vs 0.5: p=2.982e-01 (adj=1.000e+00)
+  g_lever 0.25 vs 0.75: p=6.630e-02 (adj=6.630e-01)
+  g_lever 0.25 vs 1.0: p=3.357e-01 (adj=1.000e+00)
+  g_lever 0.25 vs 1.25: p=4.202e-01 (adj=1.000e+00)
+  g_lever 0.5 vs 0.75: p=5.097e-01 (adj=1.000e+00)
+  g_lever 0.5 vs 1.0: p=8.833e-01 (adj=1.000e+00)
+  g_lever 0.5 vs 1.25: p=7.530e-01 (adj=1.000e+00)
+  g_lever 0.75 vs 1.0: p=3.532e-01 (adj=1.000e+00)
+  g_lever 0.75 vs 1.25: p=2.532e-01 (adj=1.000e+00)
+  g_lever 1.0 vs 1.25: p=8.565e-01 (adj=1.000e+00)
+ANOVA fcrit_lever: p=2.257e-178
+  fcrit_lever 0.25 vs 0.5: p=2.388e-35 (adj=2.388e-34)
+  fcrit_lever 0.25 vs 0.75: p=2.023e-56 (adj=2.023e-55)
+  fcrit_lever 0.25 vs 1.0: p=2.438e-71 (adj=2.438e-70)
+  fcrit_lever 0.25 vs 1.25: p=4.400e-81 (adj=4.400e-80)
+  fcrit_lever 0.5 vs 0.75: p=2.852e-42 (adj=2.852e-41)
+  fcrit_lever 0.5 vs 1.0: p=2.912e-64 (adj=2.912e-63)
+  fcrit_lever 0.5 vs 1.25: p=8.350e-77 (adj=8.350e-76)
+  fcrit_lever 0.75 vs 1.0: p=7.655e-52 (adj=7.655e-51)
+  fcrit_lever 0.75 vs 1.25: p=5.637e-71 (adj=5.637e-70)
+  fcrit_lever 1.0 vs 1.25: p=2.102e-57 (adj=2.102e-56)
+ANOVA PE_abs: p=6.318e-01
+  PE_abs 0.25 vs 0.5: p=8.324e-01 (adj=1.000e+00)
+  PE_abs 0.25 vs 0.75: p=4.302e-01 (adj=1.000e+00)
+  PE_abs 0.25 vs 1.0: p=5.498e-01 (adj=1.000e+00)
+  PE_abs 0.25 vs 1.25: p=5.774e-01 (adj=1.000e+00)
+  PE_abs 0.5 vs 0.75: p=3.370e-01 (adj=1.000e+00)
+  PE_abs 0.5 vs 1.0: p=7.101e-01 (adj=1.000e+00)
+  PE_abs 0.5 vs 1.25: p=7.699e-01 (adj=1.000e+00)
+  PE_abs 0.75 vs 1.0: p=1.841e-01 (adj=1.000e+00)
+  PE_abs 0.75 vs 1.25: p=1.606e-01 (adj=1.000e+00)
+  PE_abs 1.0 vs 1.25: p=8.903e-01 (adj=1.000e+00)
+ANOVA G_td: p=4.884e-181
+  G_td 0.25 vs 0.5: p=7.792e-35 (adj=7.792e-34)
+  G_td 0.25 vs 0.75: p=6.777e-57 (adj=6.777e-56)
+  G_td 0.25 vs 1.0: p=4.805e-72 (adj=4.805e-71)
+  G_td 0.25 vs 1.25: p=2.184e-79 (adj=2.184e-78)
+  G_td 0.5 vs 0.75: p=2.525e-43 (adj=2.525e-42)
+  G_td 0.5 vs 1.0: p=1.319e-65 (adj=1.319e-64)
+  G_td 0.5 vs 1.25: p=7.191e-76 (adj=7.191e-75)
+  G_td 0.75 vs 1.0: p=3.984e-54 (adj=3.984e-53)
+  G_td 0.75 vs 1.25: p=8.185e-71 (adj=8.185e-70)
+  G_td 1.0 vs 1.25: p=4.263e-58 (adj=4.263e-57)
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_fep_agent_s1_beta_phi_0.5_run0.png
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_0.5 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_0.5\G7_mc_avg_couple_td.png
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_fep_agent_s1_beta_phi_1.0_run0.png
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.0 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.0\G7_mc_avg_couple_td.png
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_fep_agent_s1_beta_phi_1.5_run0.png
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_1.5 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_1.5\G7_mc_avg_couple_td.png
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_fep_agent_s1_beta_phi_2.0_run0.png
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+  Simulation S1_beta_phi_2.0 completed MaxTimeReached at t=1000.00
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_observation.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_prediction.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_learned_model_param.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_strain_avg_PEsq.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_g_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_theta_t.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_G_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_cost_g_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_cost_beta_model_update_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_cost_beta_maintenance_step.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_speed_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\S1_beta_phi_2.0\G7_mc_avg_couple_td.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\summary_comparison_beta_phi_beta_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\summary_comparison_beta_phi_fcrit_lever.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\summary_comparison_beta_phi_PE_abs.png
+[FIGURE] results_G7_fep_td_agent\Experiment2_Vary_beta_maint_cost_phi\summary_comparison_beta_phi_G_td.png
+--- Experiment 2: beta_maintenance_cost_phi variations ---
+ANOVA beta_lever: p=5.702e-01
+  beta_lever 0.5 vs 1.0: p=7.997e-01 (adj=1.000e+00)
+  beta_lever 0.5 vs 1.5: p=4.851e-01 (adj=1.000e+00)
+  beta_lever 0.5 vs 2.0: p=4.712e-01 (adj=1.000e+00)
+  beta_lever 1.0 vs 1.5: p=6.753e-01 (adj=1.000e+00)
+  beta_lever 1.0 vs 2.0: p=3.513e-01 (adj=1.000e+00)
+  beta_lever 1.5 vs 2.0: p=1.675e-01 (adj=1.000e+00)
+ANOVA fcrit_lever: p=9.678e-01
+  fcrit_lever 0.5 vs 1.0: p=7.306e-01 (adj=1.000e+00)
+  fcrit_lever 0.5 vs 1.5: p=9.705e-01 (adj=1.000e+00)
+  fcrit_lever 0.5 vs 2.0: p=8.809e-01 (adj=1.000e+00)
+  fcrit_lever 1.0 vs 1.5: p=6.990e-01 (adj=1.000e+00)
+  fcrit_lever 1.0 vs 2.0: p=6.294e-01 (adj=1.000e+00)
+  fcrit_lever 1.5 vs 2.0: p=9.079e-01 (adj=1.000e+00)
+ANOVA PE_abs: p=6.213e-01
+  PE_abs 0.5 vs 1.0: p=7.101e-01 (adj=1.000e+00)
+  PE_abs 0.5 vs 1.5: p=6.024e-01 (adj=1.000e+00)
+  PE_abs 0.5 vs 2.0: p=4.002e-01 (adj=1.000e+00)
+  PE_abs 1.0 vs 1.5: p=3.662e-01 (adj=1.000e+00)
+  PE_abs 1.0 vs 2.0: p=2.073e-01 (adj=1.000e+00)
+  PE_abs 1.5 vs 2.0: p=7.799e-01 (adj=1.000e+00)
+ANOVA G_td: p=9.565e-01
+  G_td 0.5 vs 1.0: p=7.637e-01 (adj=1.000e+00)
+  G_td 0.5 vs 1.5: p=8.339e-01 (adj=1.000e+00)
+  G_td 0.5 vs 2.0: p=8.266e-01 (adj=1.000e+00)
+  G_td 1.0 vs 1.5: p=5.893e-01 (adj=1.000e+00)
+  G_td 1.0 vs 2.0: p=9.655e-01 (adj=1.000e+00)
+  G_td 1.5 vs 2.0: p=6.726e-01 (adj=1.000e+00)
+
+--- G7 FEP-TD Agent Simulation Study Complete ---
+
+=== Final Summary ===
+Total Scenarios Run: 4
+Total MC Runs: 30
+Summary file generated at: results_G7_fep_td_agent\summary.txt

@@ -1,0 +1,46 @@
+--- Scenario S4_EnvShift_MidPred ---
+S4 (Post vs Pre) PE_abs: 0.147 -> 0.424 (p=1.503e-27)
+S4 (Post vs Pre) g_lever: 2.887 -> 2.999 (p=1.113e-23)
+S4 (Post vs Pre) beta_lever: 0.838 -> 0.680 (p=2.335e-19)
+S4 (Post vs Pre) fcrit_lever: 278.910 -> 276.663 (p=8.651e-27)
+S4 (Post vs Pre) speed_td: 0.609 -> 0.389 (p=4.990e-13)
+S4 (Post vs Pre) couple_td: 0.738 -> 0.812 (p=2.901e-03)
+S4_EnvShift_MidPred PreCollapse vs Baseline PE_abs: 0.298 vs 0.175 (p=3.020e-11)
+S4_EnvShift_MidPred PreCollapse vs Baseline g_lever: 2.946 vs 2.962 (p=2.773e-05)
+S4_EnvShift_MidPred PreCollapse vs Baseline beta_lever: 0.790 vs 0.672 (p=2.872e-10)
+S4_EnvShift_MidPred PreCollapse vs Baseline fcrit_lever: 278.059 vs 283.836 (p=1.070e-09)
+S4_EnvShift_MidPred PreCollapse vs Baseline speed_td: 0.467 vs 0.525 (p=1.596e-07)
+S4_EnvShift_MidPred PreCollapse vs Baseline couple_td: 0.787 vs nan (p=7.652e-05)
+S4_EnvShift_MidPred Quadrant distribution χ² p=1.967e-252
+Summary Table (Stable Metrics):
+     Metric  PreCollapse   Baseline
+     PE_abs     0.297617   0.174854
+    g_lever     2.945993   2.961653
+ beta_lever     0.790310   0.671642
+fcrit_lever   278.058607 283.835897
+   speed_td     0.466816   0.525277
+  couple_td     0.786897        NaN
+S4_EnvShift_MidPred: PE_abs slope=0.0000 (R2=0.01), max=1.25 at t=502.3, min=0.00 at t=215.3
+S4_EnvShift_MidPred: g_lever slope=0.0006 (R2=0.17), max=3.00 at t=49.6, min=1.94 at t=10.7
+S4_EnvShift_MidPred: beta_lever slope=0.0003 (R2=0.08), max=0.98 at t=267.7, min=0.21 at t=0.1
+S4_EnvShift_MidPred: fcrit_lever slope=-0.0647 (R2=0.91), max=310.46 at t=49.0, min=272.91 at t=481.6
+S4_EnvShift_MidPred: speed_td slope=0.0001 (R2=0.00), max=1.13 at t=0.1, min=0.00 at t=209.0
+S4_EnvShift_MidPred: couple_td slope=0.0001 (R2=0.01), max=0.99 at t=126.4, min=-0.29 at t=147.2
+S4_EnvShift_MidPred: PE_abs STD@t20=0.03; max spread=1.61
+S4_EnvShift_MidPred: g_lever STD@t20=0.04; max spread=0.34
+S4_EnvShift_MidPred: beta_lever STD@t20=0.04; max spread=0.24
+S4_EnvShift_MidPred: fcrit_lever STD@t20=0.36; max spread=11.46
+S4_EnvShift_MidPred: speed_td STD@t20=0.00; max spread=0.64
+S4_EnvShift_MidPred: couple_td STD@t20=0.08; max spread=inf
+Baseline correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.761465    -0.461962  0.354389
+beta_lever  -0.761465    1.000000     0.555052  0.010007
+fcrit_lever -0.461962    0.555052     1.000000 -0.111621
+PE_abs       0.354389    0.010007    -0.111621  1.000000
+Pre-collapse correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.655032    -0.422376  0.345904
+beta_lever  -0.655032    1.000000     0.404977 -0.391245
+fcrit_lever -0.422376    0.404977     1.000000 -0.210937
+PE_abs       0.345904   -0.391245    -0.210937  1.000000
