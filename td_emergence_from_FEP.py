@@ -2,6 +2,10 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+
+# Double all default font sizes for better readability in exported figures
+BASE_FONT_SIZE = plt.rcParams.get("font.size", 10)
+plt.rcParams.update({"font.size": BASE_FONT_SIZE * 2, "savefig.dpi": 350})
 import os
 import time as pytime # To avoid conflict with simulation time variable
 from collections import deque
@@ -395,7 +399,7 @@ def plot_G7_results(df, scenario_name, results_dir, agent_td_config, run_id=""):
 
     fig, axs = plt.subplots(7, 1, figsize=(14, 22), sharex=True) 
     title_suffix = f" - Run {run_id}" if run_id !="" else "" # Corrected run_id check
-    fig.suptitle(f"FEP-TD Agent Dynamics - {scenario_name}{title_suffix}", fontsize=16)
+    fig.suptitle(f"FEP-TD Agent Dynamics - {scenario_name}{title_suffix}", fontsize=32)
 
     axs[0].plot(df_diag["time"], df_diag["observation"], label="Observation (Env Signal)", alpha=0.6, color='gray')
     axs[0].plot(df_diag["time"], df_diag["prediction"], label="Agent Prediction", linestyle='-', color='blue')
@@ -460,7 +464,7 @@ def plot_G7_results(df, scenario_name, results_dir, agent_td_config, run_id=""):
     plt.tight_layout(rect=[0, 0, 1, 0.97])
     file_name_suffix = f"_run{run_id}" if str(run_id) != "" else "_mc_avg"
     fig_path = os.path.join(results_dir, f"G7_fep_agent_{scenario_name.lower().replace(' ','_')}{file_name_suffix}.png")
-    plt.savefig(fig_path)
+    plt.savefig(fig_path, dpi=350)
     log_summary(f"[FIGURE] {fig_path}")
     plt.close(fig)
 
@@ -526,7 +530,7 @@ def plot_G7_mc_summary_results(all_dfs_list_scenario, scenario_name, results_dir
         plt.title(f"MC Summary: {col} - {scenario_name} (N={SIM_CONFIG_G7['n_monte_carlo']})") # Use global MC
         plt.legend(); plt.grid(True); plt.tight_layout()
         fig_path = os.path.join(results_dir_scenario, f"G7_mc_avg_{col}.png")
-        plt.savefig(fig_path)
+        plt.savefig(fig_path, dpi=350)
         log_summary(f"[FIGURE] {fig_path}")
         plt.close()
 
@@ -579,7 +583,7 @@ def perform_and_plot_sea(all_collapsing_runs_data, diagnostics_for_sea, scenario
         plt.grid(True)
         plt.tight_layout()
         fig_path = os.path.join(results_dir, f"sea_{diag}_{scenario_name}.png")
-        plt.savefig(fig_path)
+        plt.savefig(fig_path, dpi=350)
         log_summary(f"[FIGURE] {fig_path}")
         plt.close()
 
@@ -935,7 +939,7 @@ def plot_quadrant_proportions(pre_props, baseline_props, scenario_name, results_
     plt.legend()
     plt.tight_layout()
     fig_path = os.path.join(results_dir, f"quadrant_props_{scenario_name}.png")
-    plt.savefig(fig_path)
+    plt.savefig(fig_path, dpi=350)
     log_summary(f"[FIGURE] {fig_path}")
     plt.close()
 
@@ -1129,7 +1133,7 @@ if __name__ == "__main__":
         plt.grid(True)
         plt.tight_layout()
         fig_path = os.path.join(exp1_dir, f"summary_comparison_g_phi1_{m}.png")
-        plt.savefig(fig_path)
+        plt.savefig(fig_path, dpi=350)
         log_summary(f"[FIGURE] {fig_path}")
         plt.close()
 
@@ -1193,7 +1197,7 @@ if __name__ == "__main__":
         plt.grid(True)
         plt.tight_layout()
         fig_path = os.path.join(exp2_dir, f"summary_comparison_beta_phi_{m}.png")
-        plt.savefig(fig_path)
+        plt.savefig(fig_path, dpi=350)
         log_summary(f"[FIGURE] {fig_path}")
         plt.close()
 

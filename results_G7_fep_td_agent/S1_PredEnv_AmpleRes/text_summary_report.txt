@@ -32,3 +32,37 @@ S1_PredEnv_AmpleRes: beta_lever STD@t20=0.04; max spread=0.19
 S1_PredEnv_AmpleRes: fcrit_lever STD@t20=0.27; max spread=8.32
 S1_PredEnv_AmpleRes: speed_td STD@t20=0.00; max spread=0.53
 S1_PredEnv_AmpleRes: couple_td STD@t20=0.08; max spread=inf
+--- Scenario S1_PredEnv_AmpleRes ---
+S1 (Late vs Early) PE_abs: 0.164 -> 0.176 (p=1.406e-33)
+S1 (Late vs Early) g_lever: 2.372 -> 2.964 (p=3.022e-37)
+S1 (Late vs Early) beta_lever: 0.422 -> 0.702 (p=1.464e-40)
+S1 (Late vs Early) fcrit_lever: 203.430 -> 124.391 (p=2.735e-50)
+S1 (Late vs Early) speed_td: 0.472 -> 0.574 (p=4.279e-32)
+S1 (Late vs Early) couple_td: nan -> nan (p=nan)
+S1_PredEnv_AmpleRes PreCollapse vs Baseline PE_abs: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline g_lever: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline beta_lever: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline fcrit_lever: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline speed_td: insufficient data
+S1_PredEnv_AmpleRes PreCollapse vs Baseline couple_td: insufficient data
+S1_PredEnv_AmpleRes Quadrant distribution: not enough non-zero quadrants for χ² test
+Summary Table (Stable Metrics):
+     Metric  PreCollapse  Baseline
+     PE_abs          NaN       NaN
+    g_lever          NaN       NaN
+ beta_lever          NaN       NaN
+fcrit_lever          NaN       NaN
+   speed_td          NaN       NaN
+  couple_td          NaN       NaN
+S1_PredEnv_AmpleRes: PE_abs slope=0.0000 (R2=0.00), max=0.32 at t=455.2, min=0.00 at t=548.8
+S1_PredEnv_AmpleRes: g_lever slope=0.0002 (R2=0.08), max=3.00 at t=54.8, min=1.91 at t=19.9
+S1_PredEnv_AmpleRes: beta_lever slope=0.0001 (R2=0.03), max=0.99 at t=495.0, min=0.21 at t=0.1
+S1_PredEnv_AmpleRes: fcrit_lever slope=-0.0957 (R2=0.99), max=209.84 at t=26.0, min=110.44 at t=985.0
+S1_PredEnv_AmpleRes: speed_td slope=0.0000 (R2=0.00), max=1.24 at t=333.4, min=0.00 at t=514.2
+S1_PredEnv_AmpleRes: couple_td slope=0.0000 (R2=0.00), max=0.98 at t=14.5, min=-0.18 at t=305.9
+S1_PredEnv_AmpleRes: PE_abs STD@t20=0.02; max spread=0.15
+S1_PredEnv_AmpleRes: g_lever STD@t20=0.04; max spread=0.68
+S1_PredEnv_AmpleRes: beta_lever STD@t20=0.04; max spread=0.19
+S1_PredEnv_AmpleRes: fcrit_lever STD@t20=0.27; max spread=8.32
+S1_PredEnv_AmpleRes: speed_td STD@t20=0.00; max spread=0.53
+S1_PredEnv_AmpleRes: couple_td STD@t20=0.08; max spread=inf

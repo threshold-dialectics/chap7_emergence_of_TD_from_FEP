@@ -44,3 +44,49 @@ g_lever      1.000000   -0.913657    -0.695774  0.090216
 beta_lever  -0.913657    1.000000     0.673296 -0.148058
 fcrit_lever -0.695774    0.673296     1.000000 -0.132234
 PE_abs       0.090216   -0.148058    -0.132234  1.000000
+--- Scenario S2_UnpredEnv_AmpleRes ---
+S2 vs S1 (stable) PE_abs: 0.395 vs 0.176 (p=2.750e-08)
+S2 vs S1 (stable) g_lever: 2.086 vs 2.964 (p=5.925e-53)
+S2 vs S1 (stable) beta_lever: 0.155 vs 0.702 (p=1.564e-60)
+S2 vs S1 (stable) fcrit_lever: 199.868 vs 124.391 (p=2.083e-89)
+S2 vs S1 (stable) speed_td: 0.138 vs 0.574 (p=1.293e-38)
+S2 vs S1 (stable) couple_td: 0.465 vs nan (p=nan)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline PE_abs: 0.236 vs 0.240 (p=6.956e-01)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline g_lever: 2.069 vs 2.116 (p=3.386e-02)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline beta_lever: 0.168 vs 0.149 (p=8.102e-02)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline fcrit_lever: 199.930 vs 200.030 (p=3.891e-01)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline speed_td: 0.131 vs 0.093 (p=2.985e-03)
+S2_UnpredEnv_AmpleRes PreCollapse vs Baseline couple_td: 0.458 vs 0.181 (p=3.333e-01)
+S2_UnpredEnv_AmpleRes Quadrant distribution χ² p=1.306e-01
+Summary Table (Stable Metrics):
+     Metric  PreCollapse   Baseline
+     PE_abs     0.235927   0.239884
+    g_lever     2.068867   2.116325
+ beta_lever     0.167810   0.149000
+fcrit_lever   199.930311 200.030055
+   speed_td     0.131118   0.092535
+  couple_td     0.458420   0.180823
+S2_UnpredEnv_AmpleRes: PE_abs slope=1.1714 (R2=0.32), max=0.71 at t=2.2, min=0.12 at t=1.9
+S2_UnpredEnv_AmpleRes: g_lever slope=0.0548 (R2=0.94), max=2.13 at t=3.2, min=2.00 at t=0.1
+S2_UnpredEnv_AmpleRes: beta_lever slope=-0.0436 (R2=0.87), max=0.20 at t=0.2, min=0.13 at t=3.0
+S2_UnpredEnv_AmpleRes: fcrit_lever slope=-0.2205 (R2=0.54), max=200.12 at t=0.9, min=199.68 at t=2.8
+S2_UnpredEnv_AmpleRes: speed_td slope=0.0064 (R2=0.41), max=0.32 at t=4.0, min=0.02 at t=3.0
+S2_UnpredEnv_AmpleRes: couple_td slope=0.0933 (R2=0.64), max=0.95 at t=7.7, min=0.00 at t=0.1
+S2_UnpredEnv_AmpleRes: PE_abs STD@t20=0.14; max spread=0.57
+S2_UnpredEnv_AmpleRes: g_lever STD@t20=0.01; max spread=0.02
+S2_UnpredEnv_AmpleRes: beta_lever STD@t20=0.01; max spread=0.02
+S2_UnpredEnv_AmpleRes: fcrit_lever STD@t20=0.07; max spread=0.15
+S2_UnpredEnv_AmpleRes: speed_td STD@t20=0.14; max spread=0.39
+S2_UnpredEnv_AmpleRes: couple_td STD@t20=0.00; max spread=0.00
+Baseline correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.890417    -0.596710  0.081691
+beta_lever  -0.890417    1.000000     0.519332 -0.134372
+fcrit_lever -0.596710    0.519332     1.000000 -0.109015
+PE_abs       0.081691   -0.134372    -0.109015  1.000000
+Pre-collapse correlations:
+              g_lever  beta_lever  fcrit_lever    PE_abs
+g_lever      1.000000   -0.913657    -0.695774  0.090216
+beta_lever  -0.913657    1.000000     0.673296 -0.148058
+fcrit_lever -0.695774    0.673296     1.000000 -0.132234
+PE_abs       0.090216   -0.148058    -0.132234  1.000000
